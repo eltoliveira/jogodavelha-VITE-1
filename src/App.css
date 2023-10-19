@@ -1,0 +1,36 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.game-info {
+  position: absolute;
+  top: 11;
+  right: 10px; /* Você pode ajustar a margem direita conforme necessário */
+  background-color: white; /* Opcional: definir um fundo para os movimentos */
+  padding: 10px; /* Opcional: adicionar preenchimento para espaçamento */
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  margin: 2px;
+}
